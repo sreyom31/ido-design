@@ -1,11 +1,11 @@
 import Card from '../../shared/components/card';
 import { v4 } from 'uuid';
 
-const UpcommingPool = () => {
+const CompletedPool = () => {
   const cardData = [
     {
-      headerImage: './card1Head.png',
-      logo: './fara.png',
+      headerImage: './header6.png',
+      logo: './logo3.png',
       ProjectName: 'Project Name',
       PlaceHolder: 'Place Holder',
       description:
@@ -16,8 +16,8 @@ const UpcommingPool = () => {
       percentage: '80',
     },
     {
-      headerImage: './header2.png',
-      logo: './images.png',
+      headerImage: './header4.png',
+      logo: './logo4.png',
       ProjectName: 'Project Name',
       PlaceHolder: 'Place Holder',
       description: 'lorem ispum',
@@ -27,8 +27,8 @@ const UpcommingPool = () => {
       percentage: '90',
     },
     {
-      headerImage: './header3.png',
-      logo: './logo1.png',
+      headerImage: './header5.png',
+      logo: './logo6.png',
       ProjectName: 'Project Name',
       PlaceHolder: 'Place Holder',
       description: 'lorem ispum',
@@ -61,9 +61,9 @@ const UpcommingPool = () => {
     },
   ];
   return (
-    <div className="z-1 relative scrollbar-hide text-white">
+    <div className="z-1 relative scrollbar-hide text-white mt-[50px]">
       <div className="flex flex-row justify-around">
-        <p className="text-2xl  font-bold">Upcoming Pool</p>
+        <p className="text-2xl  font-bold">Completed Pool</p>
         <div className="flex flex-row gap-4">
           <button className="bg-red h-[50px] w-[50px] rounded-lg">
             <img src="./arrowRight.svg" className="w-[50px]" />
@@ -97,4 +97,4 @@ const UpcommingPool = () => {
     </div>
   );
 };
-export default UpcommingPool;
+export default CompletedPool;

@@ -6,6 +6,7 @@ import Pool from './pages/pool';
 import Staking from './pages/staking';
 import Claim from './pages/claim';
 import Apply from './pages/apply';
+import Footer from './shared/components/footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/apply" element={<Apply />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 };

@@ -1,7 +1,6 @@
 import Card from '../../shared/components/card';
 import { v4 } from 'uuid';
-
-const UpcommingPool = () => {
+const UpcomingPool = () => {
   const cardData = [
     {
       headerImage: './card1Head.png',
@@ -59,21 +58,77 @@ const UpcommingPool = () => {
       prize: '100',
       percentage: '80',
     },
+    {
+      headerImage: './header2.png',
+      logo: './images.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '90',
+    },
+    {
+      headerImage: './card1Head.png',
+      logo: './fara.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '80',
+    },
+    {
+      headerImage: './header2.png',
+      logo: './images.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '90',
+    },
+    {
+      headerImage: './card1Head.png',
+      logo: './fara.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '80',
+    },
+    {
+      headerImage: './header2.png',
+      logo: './images.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '90',
+    },
+    {
+      headerImage: './card1Head.png',
+      logo: './fara.png',
+      ProjectName: 'Project Name',
+      PlaceHolder: 'Place Holder',
+      description: 'lorem ispum',
+      totalRaise: '100',
+      start: '100',
+      prize: '100',
+      percentage: '80',
+    },
   ];
+
   return (
-    <div className="z-1 relative scrollbar-hide text-white">
-      <div className="flex flex-row justify-around">
-        <p className="text-2xl  font-bold">Upcoming Pool</p>
-        <div className="flex flex-row gap-4">
-          <button className="bg-red h-[50px] w-[50px] rounded-lg">
-            <img src="./arrowRight.svg" className="w-[50px]" />
-          </button>
-          <button className="bg-red h-[50px] w-[50px] rounded-lg">
-            <img src="./arrowLeft.svg" className="w-[50px]" />
-          </button>
-        </div>
-      </div>
-      <div className="py-10 px-10 grid grid-flow-col auto-cols-max overflow-auto scrollbar-hide gap-6">
+    <div>
+      <div className="px-[10vw] md:py-[20px] grid grid-cols-2 md:grid-cols-3 md:gap-x-4 gap-y-10">
         {cardData.map((i) => (
           <Card
             key={v4()}
@@ -89,7 +144,7 @@ const UpcommingPool = () => {
           />
         ))}
       </div>
-      <div className="flex w-full justify-center">
+      <div className="flex w-full pb-[10vw] pt-[2vw] justify-center">
         <button className="border border-[#42445F] rounded-full w-[186px] h-[50px] ">
           View More
         </button>
@@ -97,4 +152,4 @@ const UpcommingPool = () => {
     </div>
   );
 };
-export default UpcommingPool;
+export default UpcomingPool;
