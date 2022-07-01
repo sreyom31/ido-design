@@ -12,7 +12,7 @@ const Home = () => {
       <CompletedPool />
       <TierSystem />
       <TokenMatrics />
-      {/*    <BrandAndPartner /> */}
+      <BrandAndPartner />
     </div>
   );
 };
