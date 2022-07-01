@@ -5,6 +5,7 @@ const Claim = () => {
   return (
     <>
       <ClaimHero />
+
       <CardGrid />
     </>
   );

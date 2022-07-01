@@ -14,11 +14,11 @@ const App = () => {
     <>
       <BrowserRouter>
         <Header />
-        <div className="pt-[10vh] pb-[10vh] text-white">
+        <div className="py-[10vh]  text-white">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/pool" element={<Pool />} />
-            <Route path="/pool/:poolID" element={<PoolDetails />} />
+            <Route path="/pool/:id" element={<PoolDetails />} />
             <Route path="/staking" element={<Staking />} />
             <Route path="/claim" element={<Claim />} />
             <Route path="/apply" element={<Apply />} />
