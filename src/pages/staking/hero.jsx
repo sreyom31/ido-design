@@ -11,7 +11,7 @@ const HeroStake = () => {
       {modal ? (
         <Modal>
           <>
-            <div className="bg-[#16182C] flex-col gap-4  w-[95vw] h-[77vh] sm:[150vh]   sm:w-[80vw]  md:h-[80%]  2xl:w-[50vw] 2xl:h-[50vh] text-white rounded-md flex p-[1rem] relative  justify-evenly sm:justify-around mt-[20px] m-[10px]">
+            <div className="bg-[#16182C] flex-col gap-4  w-[95vw] h-[77vh] sm:[150vh]   sm:w-[80vw]  md:h-[80%] max-w-xl 2xl:w-[50vw] 2xl:h-[50vh] text-white rounded-md flex p-[1rem] relative  justify-evenly sm:justify-around mt-[20px] m-[10px]">
               <h1 className="font-bold text-md sm:text-xl text-center">
                 Stake
               </h1>

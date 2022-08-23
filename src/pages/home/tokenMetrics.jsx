@@ -49,7 +49,7 @@ const TokenMatrics = () => {
             </div>
           </div>
           <div className="flex flex-col w-full  md:w-[45vw] px-[10px] pt-[5vh]">
-            <h1 className="text-xl  font-bold ">Allocation of Funds</h1>
+            <h1 className="text-2xl mb-3  font-bold ">Allocation of Funds</h1>
             <p className="text-sm opacity-60">
               Total Token Supply: 1,000,000,000 $KLESTEL
             </p>
